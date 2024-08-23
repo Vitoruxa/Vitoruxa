@@ -1,0 +1,24 @@
+  circle(posicaoHorizontal, posicaoVertical, 50);
+}if(mouseX < posicaoHorizontal) {
+    posicaoHorizontal = posicaoHorizontal - 1;
+}function draw() {
+  
+  fill(cor);
+  circle(posicaoHorizontal, posicaoVertical, 50);
+  
+  if(mouseX < posicaoHorizontal) {
+    posicaoHorizontal = posicaoHorizontal - 1;
+  }
+}function draw() {
+  
+  fill(cor);
+  circle(posicaoHorizontal, posicaoVertical, 50);
+  
+  if(mouseX < posicaoHorizontal) {
+    posicaoHorizontal = posicaoHorizontal - 1;
+  }
+  
+  if(mouseX > posicaoHorizontal) {
+    posicaoHorizontal = posicaoHorizontal + 1;
+  }
+}
